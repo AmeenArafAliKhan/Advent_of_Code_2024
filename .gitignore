@@ -1,7 +1,4 @@
 # Ignore any compiled binary files in general
-*.out
-*.exe
-*.o
-*.a
-*.dll
-*.so
+*
+!*.*
+!*/
