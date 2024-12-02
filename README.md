@@ -1,5 +1,5 @@
 # Advent_of_Code_2024
-My solutions to the Advent Of Code puzzles 2024
+My solutions to the Advent Of Code puzzles 2024. https://adventofcode.com/
 
 ## Day 1
 
