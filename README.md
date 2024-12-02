@@ -12,6 +12,18 @@ awk '{print $12}' input.txt > col_12.txt
 
 ## Day 2
 
+A bit more challenging compared to the first one, but still doable. Had to take some external hints to come up with the logic for the second part. 
 
+```python
+def is_safe(row):
+    if row == sorted(row) or row == sorted(row, reverse = True):
+        for i in range(len(row)-1):
+            if not (1 <= abs(row[i]-row[i+1]) <= 3):
+                return False
+        return True
+    return False
+```
+This function lowkey goes hard. 
 
+## Day 3
 
