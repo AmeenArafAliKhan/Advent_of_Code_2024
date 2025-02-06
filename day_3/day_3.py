@@ -35,7 +35,7 @@ import re
 
 with open('input.txt', 'r') as file:
     input_str = file.read().strip()
-
+    print("Input str: ", input_str)
 # Updated regex to match mul(int,int), don't(), or do()
 pattern = r"mul\(\d+,\d+\)|do\(\)|don't\(\)" #order of do and dont doesnt amtter
 
